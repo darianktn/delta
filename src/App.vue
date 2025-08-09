@@ -151,7 +151,7 @@ export default {
             const options = {
                 chart: {
                     type: 'line',
-                    height: 200,
+                    // height: 200,
                     backgroundColor: '#ffffff',
                     spacing: [15, 15, 15, 15],
                     style: {
@@ -304,7 +304,7 @@ export default {
 
 <style scoped>
 .dashboard-container {
-    max-width: 1200px;
+    max-width: 700px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fafafa;
